@@ -1,0 +1,73 @@
+.banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://wallpapers.com/images/hd/cafe-background-g7e8cblqlw3vle92.jpg") no-repeat center center;
+     background-size: cover;
+     width: 100vw;
+     padding-top: 20%;
+     padding-bottom: 20%;
+     margin: 0;
+     color:rgb(244, 239, 239);
+
+}
+.display-1{
+    font-family: 'rubik','sans-serif';
+    font-weight: 700;
+    
+}
+.iconsddd{
+    display: flex;
+    justify-content: space-evenly;
+}
+#border{
+    background: linear-gradient(#459dcc, #149dcc, #e4d295);
+    max-width: 700px;
+    border-radius: 3px;
+    line-height: 1,15;
+    -webkit-text-size-adjust: 100%;
+}
+.list-lomba{
+    display: flex;
+    justify-content: space-evenly;
+}
+horizontal-timeline .items {
+    border-top: 3px solid #e9ecef;
+  }
+  
+  .horizontal-timeline .items .items-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+  }
+  
+  .horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+  }
+  
+  .horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding-top: 8px;
+  }
+  
+  @media (min-width: 1140px) {
+    .horizontal-timeline .items .items-list {
+      display: inline-block;
+      width: 24%;
+      padding-top: 45px;
+    }
+  
+    .horizontal-timeline .items .items-list .event-date {
+      top: -40px;
+    }
+  }
+  
